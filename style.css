@@ -410,7 +410,29 @@ footer {
   max-width: 33.333% !important;
 }
 
+/* ===== FORCE HERO IMAGES SIDE BY SIDE ===== */
+.hero-container {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+}
+
+.hero-image {
+  flex: 0 0 33.33% !important;
+  max-width: 33.33% !important;
+}
+
+.overlay h2 {
+  font-size: 24px !important;  /* خط أصغر مناسب للموبايل */
+}
+
+.overlay p {
+  font-size: 14px !important;
+}
 
 }
+
 
 
