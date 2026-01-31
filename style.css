@@ -398,7 +398,19 @@ footer {
   width: 33.33%;
   flex: 0 0 33.33%;
 }
+/* ===== FORCE DESKTOP LAYOUT ON MOBILE ===== */
+.hero-container {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+}
+
+.hero-image {
+  flex: 0 0 33.333% !important;
+  width: 33.333% !important;
+  max-width: 33.333% !important;
+}
 
 
 }
+
 
