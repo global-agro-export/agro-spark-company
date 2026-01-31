@@ -381,5 +381,14 @@ footer {
   background-color: #000000 !important;
   color: #ffffff;
 }
+/* ===== FORCE HERO IMAGES SIDE BY SIDE (DESKTOP STYLE ON MOBILE) ===== */
+.hero-container {
+  flex-wrap: nowrap;
+}
+
+.hero-image {
+  width: auto;
+}
+
 
 }
